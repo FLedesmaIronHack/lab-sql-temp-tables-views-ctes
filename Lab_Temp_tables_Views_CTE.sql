@@ -1,16 +1,16 @@
--- Use sakila;
-Select * from film_category; -- --> Film_ID and Category_ID
-Select * from category; -- --> Category_ID
-Select * from film; -- --> Film_ID,language_ID
-Select * from country; -- --> Country_ID
-Select * from City; -- --> City_ID, Country_ID
-Select * from address; -- --> Addres_ID,City_ID 
-Select * from payment; -- --> Paymnet_ID,Customer_ID,Staff_ID,Rental_ID
-Select * from rental; -- -- Rental_ID,Inventory_ID,Customer_ID,Staff_ID
-Select * from store; -- --> Store_ID, Manager_Staff_ID,addres_ID
-Select * from customer; -- --> Customer_ID,Store_ID, Address_ID
-Select * from staff; -- --> Staff_ID, Address_ID, Store_ID
-Select * from inventory; -- --> inventory_id, Film_ID, Store_ID
+--  Use sakila;
+-- Select * from film_category; -- --> Film_ID and Category_ID
+-- Select * from category; -- --> Category_ID
+-- Select * from film; -- --> Film_ID,language_ID
+-- Select * from country; -- --> Country_ID
+-- Select * from City; -- --> City_ID, Country_ID
+-- Select * from address; -- --> Addres_ID,City_ID 
+-- Select * from payment; -- --> Paymnet_ID,Customer_ID,Staff_ID,Rental_ID
+-- Select * from rental; -- -- Rental_ID,Inventory_ID,Customer_ID,Staff_ID
+-- Select * from store; -- --> Store_ID, Manager_Staff_ID,addres_ID
+-- Select * from customer; -- --> Customer_ID,Store_ID, Address_ID
+-- Select * from staff; -- --> Staff_ID, Address_ID, Store_ID
+-- Select * from inventory; -- --> inventory_id, Film_ID, Store_ID
 
 -- Step 1: Create a View
 -- First, create a view that summarizes rental information for each customer. The view should include the customer's ID, name, email address, and total number of rentals (rental_count).
